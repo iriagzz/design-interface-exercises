@@ -1,0 +1,81 @@
+
+
+h1{
+    text-align: center;
+    color: #003333
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+    font-size: 12px;
+    padding: 2px;
+    color: #003333
+}
+
+input{
+    width: 25%;
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid;
+    border-color: #669999;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: right;
+}
+select{
+    width: 15%;
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid;
+    border-color: #669999;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    color: #003333
+}
+
+
+button{
+    border: none;
+    margin: 7px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    border-radius: 4px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 10%;
+}
+
+#cabecalho{
+    
+    padding: 10px;
+    margin: 5px
+}
+
+#corpo{
+    
+    text-align: center;
+    padding: 10px;
+}
+
+
+#calcular{
+    background-color: #003333;
+    
+}
+
+#limpar{   
+    background-color: #FF3333;
+}
+
+#resultado{
+    color: #003333;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
