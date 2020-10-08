@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo Salário</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="cabecalho"></div>
+        <h1>Cálculo Salário</h1>
+    </div>
+    <div id="corpo">
+        <form type="submit" onsubmit="return false">
+            <label>Nome do Funcionário</label> </br>   
+            <input
+            type="text"
+            class="campo_texto"
+            id="nome"
+            required
+            placeholder="Fulano da Silva Sauro"
+            >
+                </br>
+            <label>Salário Atual (R$)</label></br>
+            <input
+            type="number"
+            class="campo_texto"
+            id="salario"
+            placeholder="0,00"
+            required
+            >
+            </br>
+            <button id="calcular" type="submit">Calcular</button> 
+            <button id="limpar" type="button">Limpar</button>
+                </br>
+            <label>Novo Salário</label></br>
+            <input
+            type="text"
+            id="resultado"
+            disabled="disabled"
+            >
+        </form>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcelas</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="cabecalho"></div>
+        <h1>Cálculo de Parcelas</h1>
+    </div>
+    <div id="corpo">
+        
+            <label>Insira o valor à vista do produto: </label> </br>   
+            <input
+            type="number"
+            class="campo_texto"
+            id="produto"
+            required
+            placeholder="insira o valor do produto"
+            >
+            </br>
+            <select id="selecao" >
+                <option value="parcelas">--Parcelas--</option>
+                <option value="3x">Parcelar em 3x</option>
+                <option value="5x">Parcelar em 5x</option>
+            </select></br>
+
+            <button id="calcular" type="submit" onclick="calcular()">Calcular</button> 
+            <button id="limpar" type="button" onclick="limpar()">Limpar</button>
+            </br>
+            <label>Total da Venda: </label></br>
+            <input
+            type="text"
+            class="campo_texto"
+            id="venda"
+            disabled="disabled"
+            ></br>
+            <label>Valor da Parcela:</label></br>
+            <input
+            type="text"
+            id="resultado"
+            disabled="disabled"
+            >
+        
+        </div>    
+    <script src="script.js"></script>
+</body>
+</html>

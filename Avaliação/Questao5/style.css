@@ -1,5 +1,4 @@
 
-
 h1{
     text-align: center;
     color: #003333
@@ -51,6 +50,13 @@ button{
     width: 10%;
 }
 
+#resultado, #situacao, #nome{
+    box-sizing: border-box;
+    color: #003333;
+    font-weight: bold;
+    font-size: 13px;
+}
+
 #cabecalho{
     
     padding: 10px;
@@ -73,9 +79,3 @@ button{
     background-color: #aa0000;
 }
 
-#resultado{
-    color: #003333;
-    font-weight: bold;
-    font-size: 13px;
-    
-}

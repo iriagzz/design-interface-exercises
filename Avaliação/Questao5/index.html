@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Aluno</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="cabecalho"></div>
+        <h1>Nota Final</h1>
+    </div>
+    <div id="corpo">
+        <form type="submit" onsubmit="return false">
+            <label>Nome do Aluno</label> </br>   
+            <input
+            type="text"
+            class="campo_texto"
+            id="aluno"
+            required
+            >
+            </br>
+            <label>Primeira Nota</label></br>
+            <input
+            type="number"
+            step= "any"
+            class="campo_texto"
+            id="nota1"
+            required
+            >
+            </br>
+            <label>Segunda Nota</label></br>
+            <input
+            type="number"
+            step= "any"
+            class="campo_texto"
+            id="nota2"
+            required
+            >
+            </br>
+            <label>Terceira Nota</label></br>
+            <input
+            type="number"
+            step= "any"
+            class="campo_texto"
+            id="nota3"
+            required
+            >
+            </br>
+            <button id="calcular" type="submit" >Calcular</button> 
+            <button id="limpar" type="button" >Limpar</button>
+            </br></br>
+            <label>Nome: </label>
+            <input 
+            id="nome"
+            type="text"
+            disabled="disabled"
+            ></input></br>
+            <label>Média: </label>
+            <input 
+            id="resultado"
+            type="text"
+            disabled="disabled"
+            ></input></br>
+            <label>Situação: </label>
+            <input 
+            id="situacao"
+            type="text"
+            disabled="disabled"
+            ></input>
+        </form>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
